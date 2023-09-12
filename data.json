@@ -59,6 +59,31 @@
             "modelo": "Bicicleta de montaña",
             "img": "img/atomic.jpg",
             "precio": 5
+        },
+        {
+            "nombre": "Kona",
+            
+            "modelo": "Bicicleta de carretera",
+            "img": "img/atomic.jpg",
+            "precio": 5
+        },
+        {
+            "nombre": "Kona",
+            "modelo": "Bicicleta de carretera",
+            "img": "img/6698_264_1_1.jpg",
+            "precio": 5
+        },
+        {
+            "nombre": "Kona",
+            "modelo": "Bicicleta de paseo",
+            "img": "img/6627_48_1_1.jpg",
+            "precio": 5
+        },
+        {
+            "nombre": "Kona",
+            "modelo": "Bicicleta de paseo",
+            "img": "img/atomic.jpg",
+            "precio": 5
         }
     ]
 }

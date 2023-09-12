@@ -46,7 +46,7 @@ function mostrarBicicletas() {
             bicicletaModel.innerHTML = bicicleta.modelo;
             bicicletaDiv.appendChild(bicicletaModel);
 
-            // Crear un p para el precio de la bicicleta
+            
             const bicicletaPrice = document.createElement("p");
             bicicletaPrice.innerHTML = "$"+bicicleta.precio;            
             bicicletaDiv.appendChild(bicicletaPrice);
