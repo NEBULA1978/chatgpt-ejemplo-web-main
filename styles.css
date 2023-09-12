@@ -1,27 +1,16 @@
 /* Reglas para dispositivos móviles */
 @media (max-width: 768px) {
-
-  /* Centra el contenido en la pantalla */
   .main {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
 
   .section {
     width: 100%;
     padding: 10px;
-    /* Reducir el espacio en el texto para dispositivos móviles */
-  }
-
-  .bicicletas-contenedor {
-    width: 100%;
   }
 
   .bicicleta {
     width: 100%;
-    max-width: none;
     margin: 0 auto;
   }
 
@@ -29,6 +18,13 @@
     width: 100%;
     height: auto;
     object-fit: contain;
+  }
+
+  /* Evitar que el texto se divida en varias líneas */
+  .header h1 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 }
 
@@ -40,10 +36,11 @@
     gap: 20px;
   }
 
-  /* Para evitar que las imágenes se salgan de la pantalla */
   .bicicletas-contenedor {
     width: 100%;
     overflow-x: hidden;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .bicicleta {
