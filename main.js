@@ -13,47 +13,31 @@ fetch("data.json")
 
 // Función para mostrar las bicicletas en la página
 function mostrarBicicletas() {
-    const bicicletasContenedor = document.getElementById("bicicletas-contenedor");
-    bicicletasContenedor.innerHTML = "";
-
-    // Obtener los valores seleccionados en los filtros
     const filtroModelo = document.getElementById("filtro-modelo").value;
     const filtroPrecio = parseFloat(document.getElementById("filtro-precio").value);
 
-    console.log(filtroPrecio);
+    // Filtrar bicicletas que cumplen con los criterios
+    const bicicletasFiltradas = window.bicicletas.filter(bicicleta => {
+        return (filtroModelo === "" || bicicleta.modelo === filtroModelo) &&
+               (filtroPrecio === 0 || bicicleta.precio <= filtroPrecio);
+    });
 
-    // Recorrer cada bicicleta
-    window.bicicletas.forEach(function (bicicleta) {
-        // Comprobar si la bicicleta cumple con los criterios de los filtros
-        if ((filtroModelo === "" || bicicleta.modelo === filtroModelo) && (filtroPrecio === 0 || bicicleta.precio <= filtroPrecio)
-        ) {
-            // Crear un elemento div para la bicicleta
-            const bicicletaDiv = document.createElement("div");
-            bicicletaDiv.classList.add("bicicleta");
-            // Crear una imagen para la bicicleta
-            const bicicletaImg = document.createElement("img");
-            bicicletaImg.src = bicicleta.img;
-            bicicletaImg.alt = bicicleta.modelo;
-            bicicletaDiv.appendChild(bicicletaImg);
+    // Limpiar el contenedor
+    bicicletasContenedor.innerHTML = "";
 
-            // Crear un h3 para el nombre de la bicicleta
-            const bicicletaNombre = document.createElement("h3");
-            bicicletaNombre.innerHTML = bicicleta.nombre;
-            bicicletaDiv.appendChild(bicicletaNombre);
+    // Crear elementos HTML para cada bicicleta y agregarlos al contenedor
+    bicicletasFiltradas.forEach(bicicleta => {
+        const bicicletaDiv = document.createElement("div");
+        bicicletaDiv.classList.add("bicicleta");
 
-            // Crear un p para el modelo de la bicicleta
-            const bicicletaModel = document.createElement("p");
-            bicicletaModel.innerHTML = bicicleta.modelo;
-            bicicletaDiv.appendChild(bicicletaModel);
+        bicicletaDiv.innerHTML = `
+            <img src="${bicicleta.img}" alt="${bicicleta.modelo}">
+            <h3>${bicicleta.nombre}</h3>
+            <p>${bicicleta.modelo}</p>
+            <p>$${bicicleta.precio}</p>
+        `;
 
-            
-            const bicicletaPrice = document.createElement("p");
-            bicicletaPrice.innerHTML = "$"+bicicleta.precio;            
-            bicicletaDiv.appendChild(bicicletaPrice);
-
-            // Agregar el elemento div a la página
-            bicicletasContenedor.appendChild(bicicletaDiv);
-        }
+        bicicletasContenedor.appendChild(bicicletaDiv);
     });
 }
 
