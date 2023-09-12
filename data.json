@@ -8,13 +8,13 @@
         },
         {
             "nombre": "Specialized",
-            "modelo": "Bicicleta de carretera",
+            "modelo": "Bicicleta de montaña",
             "img": "img/6550_96_1_1.jpg",
             "precio": 7
         },
         {
             "nombre": "Trek",
-            "modelo": "Bicicleta de paseo",
+            "modelo": "Bicicleta de montaña",
             "img": "img/6554_98_1_1.jpg",
             "precio": 3
         },
@@ -26,13 +26,13 @@
         },
         {
             "nombre": "Cannondale",
-            "modelo": "Bicicleta de carretera",
+            "modelo": "Bicicleta de montaña",
             "img": "img/6681_07_1_1.jpg",
             "precio": 7
         },
         {
             "nombre": "Scott",
-            "modelo": "Bicicleta de paseo",
+            "modelo": "Bicicleta de montaña",
             "img": "img/6683_126_1_1.jpg",
             "precio": 3
         },
@@ -44,13 +44,13 @@
         },
         {
             "nombre": "Bianchi",
-            "modelo": "Bicicleta de carretera",
+            "modelo": "Bicicleta de montaña",
             "img": "img/6696_98_1_1.jpg",
             "precio": 7
         },
         {
             "nombre": "Merida",
-            "modelo": "Bicicleta de paseo",
+            "modelo": "Bicicleta de montaña",
             "img": "img/6698_264_1_1.jpg",
             "precio": 3
         },
