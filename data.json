@@ -1,67 +1,67 @@
 {
     "bicicletas": [
         {
-            "nombre": "Rockrider",
+            "nombre": "ATOMIC 150 CA6424",
             "modelo": "Camisetas Manga Corta",
             "img": "img/camisetas-mangacorta/6502_100_1_1.jpg",
             "precio": 5
         },
         {
-            "nombre": "Specialized",
+            "nombre": "JAMAICA CA6627",
             "modelo": "Camisetas Manga Corta",
             "img": "img/camisetas-mangacorta/6550_96_1_1.jpg",
             "precio": 7
         },
         {
-            "nombre": "Trek",
+            "nombre": "BEAGLE CA6554",
             "modelo": "Camisetas Manga Corta",
             "img": "img/camisetas-mangacorta/6554_98_1_1.jpg",
             "precio": 3
         },
         {
-            "nombre": "Giant",
+            "nombre": "CAPRI CA6683",
             "modelo": "Camisetas Manga Corta",
             "img": "img/camisetas-mangacorta/6627_48_1_1.jpg",
             "precio": 5
         },
         {
-            "nombre": "Cannondale",
+            "nombre": "STAFFORD CA6681",
             "modelo": "Camisetas Manga Corta",
             "img": "img/camisetas-mangacorta/6681_07_1_1.jpg",
             "precio": 7
         },
         {
-            "nombre": "Scott",
+            "nombre": "DOGO PREMIUM CA6502",
             "modelo": "Camisetas Manga Corta",
             "img": "img/camisetas-mangacorta/6683_126_1_1.jpg",
             "precio": 3
         },
         {
-            "nombre": "Cube",
+            "nombre": "BRACO CA6550",
             "modelo": "Camisetas Manga Corta",
             "img": "img/camisetas-mangacorta/6690_01_1_1.jpg",
             "precio": 5
         },
         {
-            "nombre": "Bianchi",
+            "nombre": "GOLDEN WOMAN CA6",
             "modelo": "Camisetas Manga Corta",
             "img": "img/camisetas-mangacorta/6696_98_1_1.jpg",
             "precio": 7
         },
         {
-            "nombre": "Merida",
+            "nombre": "GOLDEN CA6690",
             "modelo": "Camisetas Manga Corta",
             "img": "img/camisetas-mangacorta/6698_264_1_1.jpg",
             "precio": 3
         },
         {
-            "nombre": "Kona",
+            "nombre": "BREDA CA6698",
             "modelo": "Camisetas Manga Corta",
             "img": "img/camisetas-mangacorta/atomic.jpg",
             "precio": 5
         },
         {
-            "nombre": "Kona",
+            "nombre": "BREDA WOMAN CA6699",
             "modelo": "Camisetas Manga Corta",
             "img": "img/camisetas-mangacorta/6698_264_1_1.jpg",
             "precio": 5
