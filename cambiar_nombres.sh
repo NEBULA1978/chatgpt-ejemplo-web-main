@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Ruta al archivo JSON original
-archivo_json="data.json"
-
 # Ruta al archivo nombres_imagenes.txt
 archivo_nombres="nombres_imagenes.txt"
 
