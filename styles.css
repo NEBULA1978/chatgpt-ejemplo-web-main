@@ -1,30 +1,12 @@
+/* Reglas para dispositivos móviles */
 @media (max-width: 768px) {
-  .header {
-    width: 100%;
-    height: auto;
-    /* Cambiar a altura automática para adaptarse al contenido */
-  }
 
-  .nav {
-    width: 100%;
-  }
-
-  .nav ul {
-    width: 100%;
-    padding: 0;
-    text-align: center;
-    /* Centrar elementos del menú */
-  }
-
-  .nav ul li {
-    display: block;
-    /* Cambiar a bloque para que los elementos del menú estén en una sola columna */
-    margin-bottom: 10px;
-    /* Espacio entre elementos del menú */
-  }
-
+  /* Centra el contenido en la pantalla */
   .main {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .section {
@@ -39,23 +21,33 @@
 
   .bicicleta {
     width: 100%;
-    /* Ocupa todo el ancho disponible */
     max-width: none;
-    /* Eliminar el ancho máximo para permitir que las imágenes sean más grandes */
     margin: 0 auto;
   }
 
   .bicicleta img {
     width: 100%;
-    /* Ocupar todo el ancho disponible */
     height: auto;
-    /* Mantener la proporción de aspecto */
     object-fit: contain;
   }
+}
 
-  .footer {
+/* Reglas para pantallas de PC */
+@media (min-width: 769px) {
+  .main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  /* Para evitar que las imágenes se salgan de la pantalla */
+  .bicicletas-contenedor {
     width: 100%;
-    height: auto;
-    /* Cambiar a altura automática para adaptarse al contenido */
+    overflow-x: hidden;
+  }
+
+  .bicicleta {
+    width: 33.33%;
+    margin: 0 20px;
   }
 }
