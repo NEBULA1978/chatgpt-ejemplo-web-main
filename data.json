@@ -2,88 +2,95 @@
     "bicicletas": [
         {
             "nombre": "Rockrider",
-            "modelo": "Bicicleta de montaña",
+            "modelo": "Camisetas Manga Corta",
             "img": "img/6502_100_1_1.jpg",
             "precio": 5
         },
         {
             "nombre": "Specialized",
-            "modelo": "Bicicleta de montaña",
+            "modelo": "Camisetas Manga Corta",
             "img": "img/6550_96_1_1.jpg",
             "precio": 7
         },
         {
             "nombre": "Trek",
-            "modelo": "Bicicleta de montaña",
+            "modelo": "Camisetas Manga Corta",
             "img": "img/6554_98_1_1.jpg",
             "precio": 3
         },
         {
             "nombre": "Giant",
-            "modelo": "Bicicleta de montaña",
+            "modelo": "Camisetas Manga Corta",
             "img": "img/6627_48_1_1.jpg",
             "precio": 5
         },
         {
             "nombre": "Cannondale",
-            "modelo": "Bicicleta de montaña",
+            "modelo": "Camisetas Manga Corta",
             "img": "img/6681_07_1_1.jpg",
             "precio": 7
         },
         {
             "nombre": "Scott",
-            "modelo": "Bicicleta de montaña",
+            "modelo": "Camisetas Manga Corta",
             "img": "img/6683_126_1_1.jpg",
             "precio": 3
         },
         {
             "nombre": "Cube",
-            "modelo": "Bicicleta de montaña",
+            "modelo": "Camisetas Manga Corta",
             "img": "img/6690_01_1_1.jpg",
             "precio": 5
         },
         {
             "nombre": "Bianchi",
-            "modelo": "Bicicleta de montaña",
+            "modelo": "Camisetas Manga Corta",
             "img": "img/6696_98_1_1.jpg",
             "precio": 7
         },
         {
             "nombre": "Merida",
-            "modelo": "Bicicleta de montaña",
+            "modelo": "Camisetas Manga Corta",
             "img": "img/6698_264_1_1.jpg",
             "precio": 3
-        },
-        {
-            "nombre": "Kona",
-            "modelo": "Bicicleta de montaña",
-            "img": "img/atomic.jpg",
-            "precio": 5
-        },
-        {
-            "nombre": "Kona",
-            
-            "modelo": "Bicicleta de carretera",
-            "img": "img/atomic.jpg",
-            "precio": 5
-        },
-        {
-            "nombre": "Kona",
-            "modelo": "Bicicleta de carretera",
-            "img": "img/6698_264_1_1.jpg",
-            "precio": 5
-        },
-        {
-            "nombre": "Kona",
-            "modelo": "Bicicleta de paseo",
-            "img": "img/6627_48_1_1.jpg",
-            "precio": 5
         },
         {
             "nombre": "Kona",
             "modelo": "Camisetas Manga Corta",
             "img": "img/atomic.jpg",
             "precio": 5
+        },
+
+        {
+            "nombre": "Kona",
+            "modelo": "Camisetas Manga Corta",
+            "img": "img/6698_264_1_1.jpg",
+            "precio": 5
+        },
+        {
+            "nombre": "Kona",
+            "modelo": "Camisetas De Tirantes",
+            "img": "img/BRENDA CA6535.jpg",
+            "precio": 5
+        },
+        {
+            "nombre": "Kona",
+            "modelo": "Camisetas De Tirantes",
+            "img": "img/carolinaca6517.jpg",
+            "precio": 5
+        },
+        {
+            "nombre": "Kona",
+            "modelo": "Camisetas De Tirantes",
+            "img": "img/NARA CA6536.jpg",
+            "precio": 5
+        },
+        {
+            "nombre": "Kona",
+            "modelo": "Camisetas De Tirantes",
+            "img": "img/TEXAS CA6545.jpg",
+            "precio": 5
         }
+
     ]
 }
