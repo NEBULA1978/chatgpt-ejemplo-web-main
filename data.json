@@ -1,64 +1,51 @@
-{
-    "bicicletas": [
-        {
-            "nombre": "Rockrider",
-            "modelo": "Bicicleta de montaña",
-            "img": "img/1-bicicleta.png",
-            "precio": 5
-        },
-        {
-            "nombre": "Specialized",
-            "modelo": "Bicicleta de carretera",
-            "img": "img/2-bicicleta.png",
-            "precio": 7
-        },
-        {
-            "nombre": "Trek",
-            "modelo": "Bicicleta de paseo",
-            "img": "img/3-bicicleta.png",
-            "precio": 3
-        },
-        {
-            "nombre": "Giant",
-            "modelo": "Bicicleta de montaña",
-            "img": "img/4-bicicleta.png",
-            "precio": 5
-        },
-        {
-            "nombre": "Cannondale",
-            "modelo": "Bicicleta de carretera",
-            "img": "img/5-bicicleta.png",
-            "precio": 7
-        },
-        {
-            "nombre": "Scott",
-            "modelo": "Bicicleta de paseo",
-            "img": "img/6-bicicleta.png",
-            "precio": 3
-        },
-        {
-            "nombre": "Cube",
-            "modelo": "Bicicleta de montaña",
-            "img": "img/7-bicicleta.png",
-            "precio": 5
-        },
-        {
-            "nombre": "Bianchi",
-            "modelo": "Bicicleta de carretera",
-            "img": "img/8-bicicleta.png",
-            "precio": 7
-        },
-        {
-            "nombre": "Merida",
-            "modelo": "Bicicleta de paseo",
-            "img": "img/9-bicicleta.png",
-            "precio": 3
-        },
-        {
-            "nombre": "Kona",
-            "modelo": "Bicicleta de montaña",
-            "img": "img/10-bicicleta.png",
-            "precio": 5
-        }
-    ]
-}
+{"bicicletas": [{
+        "nombre": "6502_100_1_1.jpg",
+        "modelo": "Bicicleta de montaña",
+        "img": "img/6502_100_1_1.jpg",
+        "precio": 5
+    }, {
+        "nombre": "6550_96_1_1.jpg",
+        "modelo": "Bicicleta de montaña",
+        "img": "img/6550_96_1_1.jpg",
+        "precio": 5
+    }, {
+        "nombre": "6554_98_1_1.jpg",
+        "modelo": "Bicicleta de montaña",
+        "img": "img/6554_98_1_1.jpg",
+        "precio": 5
+    }, {
+        "nombre": "6627_48_1_1.jpg",
+        "modelo": "Bicicleta de montaña",
+        "img": "img/6627_48_1_1.jpg",
+        "precio": 5
+    }, {
+        "nombre": "6681_07_1_1.jpg",
+        "modelo": "Bicicleta de montaña",
+        "img": "img/6681_07_1_1.jpg",
+        "precio": 5
+    }, {
+        "nombre": "6683_126_1_1.jpg",
+        "modelo": "Bicicleta de montaña",
+        "img": "img/6683_126_1_1.jpg",
+        "precio": 5
+    }, {
+        "nombre": "6690_01_1_1.jpg",
+        "modelo": "Bicicleta de montaña",
+        "img": "img/6690_01_1_1.jpg",
+        "precio": 5
+    }, {
+        "nombre": "6696_98_1_1.jpg",
+        "modelo": "Bicicleta de montaña",
+        "img": "img/6696_98_1_1.jpg",
+        "precio": 5
+    }, {
+        "nombre": "6698_264_1_1.jpg",
+        "modelo": "Bicicleta de montaña",
+        "img": "img/6698_264_1_1.jpg",
+        "precio": 5
+    }, {
+        "nombre": "atomic.jpg",
+        "modelo": "Bicicleta de montaña",
+        "img": "img/atomic.jpg",
+        "precio": 5
+    }]}
