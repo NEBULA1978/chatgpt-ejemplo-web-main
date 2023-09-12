@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Ruta al archivo data_json.txt
-archivo_data_json="data_json.txt"
+archivo_data_json="data_json_modificado.txt"
 
 # Ruta al archivo data.json
 archivo_json="data.json"

@@ -1,35 +1,35 @@
 #!/bin/bash
 
+# Ruta al archivo data_json.txt (el archivo donde deseas realizar los cambios)
+data_json="data_json.txt"
+
 # Ruta al archivo nombres_imagenes.txt
-archivo_nombres="nombres_imagenes.txt"
-
-# Nombre del archivo de salida
-archivo_salida="data_json.txt"
-
-# Verificar si el archivo nombres_imagenes.txt existe
-if [ ! -f "$archivo_nombres" ]; then
-    echo "El archivo $archivo_nombres no existe."
-    exit 1
-fi
+nombres_imagenes="nombres_imagenes.txt"
 
 # Leer el contenido de nombres_imagenes.txt en un array
-mapfile -t nombres_imagenes < "$archivo_nombres"
+mapfile -t nombres < "$nombres_imagenes"
 
-# Crear la estructura JSON modificada
-json_modificado="{\"bicicletas\": ["
-for nombre_imagen in "${nombres_imagenes[@]}"; do
-    json_modificado+="{
-        \"nombre\": \"$nombre_imagen\",
-        \"modelo\": \"Bicicleta de montaña\",
-        \"img\": \"img/$nombre_imagen\",
-        \"precio\": 5
-    }, "
-done
-# Eliminar la última coma y espacio en blanco
-json_modificado="${json_modificado%, }"
-json_modificado+="]}"
+# Crear un nuevo archivo para el resultado
+resultado="data_json_modificado.txt"
 
-# Reemplazar el contenido del archivo de salida con el JSON modificado
-echo "$json_modificado" > "$archivo_salida"
+# Contador para recorrer el array de nombres de imágenes
+contador=0
 
-echo "Contenido de $archivo_salida actualizado con el JSON modificado."
+# Leer el archivo data_json.txt línea por línea
+while IFS= read -r linea; do
+    # Verificar si la línea contiene "\"img\":"
+    if [[ $linea =~ "\"img\":" ]]; then
+        # Reemplazar la parte de la línea correspondiente a la imagen
+        nueva_linea="            \"img\": \"img/${nombres[$contador]}\","
+        contador=$((contador + 1))
+        echo "$nueva_linea"
+    else
+        # Mantener la línea sin cambios
+        echo "$linea"
+    fi
+done < "$data_json" > "$resultado"
+
+# Agregar una llave de cierre "}" al final del archivo
+echo "}" >> "$resultado"
+
+echo "Se han cambiado los nombres de las imágenes en $resultado."
